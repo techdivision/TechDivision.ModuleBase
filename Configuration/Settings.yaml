@@ -1,0 +1,11 @@
+TYPO3:
+  Neos:
+    moduleConfiguration:
+      widgetTemplatePathAndFileName: 'resource://TechDivision.ModuleBase/Private/Templates/Module/Widget.html'
+    modules:
+      techdivision:
+        label: 'TechDivision'
+        controller: '\TechDivision\ModuleBase\Controller\Module\TechDivisionController'
+        description: 'TechDivision Backend Section'
+        icon: 'icon-thumbs-up'
+        resource: 'TechDivision_ModuleBase_Controller_Module_TechDivision'
