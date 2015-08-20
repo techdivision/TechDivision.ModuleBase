@@ -2,6 +2,7 @@
   "name": "techdivision/modulebase",
   "type": "typo3-flow-package",
   "description": "Provides the TechDivision backend module section",
+  "license": "GPL-3.0+",
   "homepage" : "https://github.com/techdivision/TechDivision.ModuleBase",
   "authors" : [{
     "name" : "Philipp Dittert",
