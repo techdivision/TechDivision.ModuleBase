@@ -1,3 +1,4 @@
+
 TYPO3:
   Neos:
     moduleConfiguration:
@@ -7,5 +8,5 @@ TYPO3:
         label: 'TechDivision'
         controller: '\TechDivision\ModuleBase\Controller\Module\TechDivisionController'
         description: 'TechDivision Backend Section'
-        icon: 'icon-thumbs-up'
+        icon: 'icon-briefcase'
         resource: 'TechDivision_ModuleBase_Controller_Module_TechDivision'
