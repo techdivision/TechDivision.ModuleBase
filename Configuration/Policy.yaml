@@ -1,8 +1,10 @@
-resources:
-  methods:
-    TechDivision_ModuleBase_Controller_Module_TechDivision: 'method(TechDivision\ModuleBase\Controller\Module\TechDivisionController->indexAction())'
-
-acls:
-  Everybody:
-    methods:
-      TechDivision_ModuleBase_Controller_Module_TechDivision: GRANT
+privilegeTargets:
+  TYPO3\Flow\Security\Authorization\Privilege\Method\MethodPrivilege:
+    TD_NeosBase_Controller_Module_TechDivision:
+      matcher: method(TD\NeosBase\Controller\Module\TechDivisionController->indexAction())
+roles:
+  'TYPO3.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: TD_NeosBase_Controller_Module_TechDivision
+        permission: GRANT
